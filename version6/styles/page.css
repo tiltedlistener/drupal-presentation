@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html,
+body {
+	background-color:#013e7f;
+	border:0;
+	font-family: "Helvetica", sans-serif;
+	font-size:100%;
+	margin:0;
+	padding:0;
+}
+
+h1, h2, h3, h4 {
+	font-weight:100;
+}
+
+a {
+	text-decoration: none;
+}
+
+#wrapper {
+	background:white;
+	margin:0 auto;
+	padding:0px 20px 50px;
+	width:980px;
+}
+
+
+/* Post Styles */
+.post {
+	margin-bottom:50px;
+}
+
+.title {
+	color:#013e7f;
+}
+
+footer {
+	border-top:1px solid #28C711;
+	clear:both;
+	padding-top:20px;
+	position:relative;
+}
+
+/* Sidebar */
+.right-sidebar #main {
+	float:left;
+	margin-right:5%;
+	width:70%;
+}
+
+#sidebar {
+	float:left;
+	width:25%;
+}
+
+#sidebar .post {
+	margin-bottom:10px;
+}
+
+#sidebar .title {
+	font-size:14px;
+}

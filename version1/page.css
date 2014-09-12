@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html,
+body {
+	background-color:#013e7f;
+	border:0;
+	font-family: "Helvetica", sans-serif;
+	font-size:100%;
+	margin:0;
+	padding:0;
+}
+
+h1, h2, h3, h4 {
+	font-weight:100;
+}
+
+#wrapper {
+	background:white;
+	margin:0 auto;
+	padding:0px 20px 50px;
+	width:980px;
+}
+
+.post {
+	margin-bottom:50px;
+}
+
+.title {
+	color:#013e7f;
+	cursor:pointer;
+}
+
+footer {
+	border-top:1px solid #28C711;
+	padding-top:20px;
+}
